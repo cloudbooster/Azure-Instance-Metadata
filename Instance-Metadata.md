@@ -82,7 +82,7 @@ scheduledevents | see [scheduledevents](#scheduled-events)
 
 # Availability 
 The current Preview is available in **West US Central** Region of Azure. 
-For trying out IMDS simply create a VM from [Azure Resource Manager ](https://docs.microsoft.com/en-us/rest/api/resources/?redirectedfrom=MSDN) or [Azure Portal](http://portal.azure.com) and follow the [examples](#Examples)
+For trying out IMDS simply create a VM from [Azure Resource Manager ](https://docs.microsoft.com/en-us/rest/api/resources/?redirectedfrom=MSDN) or [Azure Portal](http://portal.azure.com) and follow the [examples](#retrieving-instance-metadata)
 # Scheduled Events
 Azure Metadata service enables you to discover information about your Virtual Machine hosted in Azure. The Azure Metadata Service provides information about upcoming maintenance events (for example, reboot) so your service can prepare for them and limit disruption. It's available for all Azure Virtual Machine types including PaaS as well as IaaS. The service gives your Virtual Machine time to perform preventive tasks and minimize the effect of an event. For example, your service might drain sessions, elect a new leader, or copy data after observing that an instance is scheduled for reboot to avoid disruption. The Service enables your Virtual Machine to notify Azure that it can continue with the event (ahead of time). This is useful for expediting the impact when your service has successfully complete the graceful shutdown sequence.
 ## Introduction - Why Scheduled Events?
