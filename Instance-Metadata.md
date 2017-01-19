@@ -209,8 +209,8 @@ static async Task RunAsync()
 
 # FAQ
 1. I am getting Bad request. Required metadata header not specified?
-    ##### IMDS requires header of Metadata:true to be passed in the request. Passing header will allow access
+    #### IMDS requires header of Metadata:true to be passed in the request. Passing header will allow access
 2. I am not getting information for my VM 
-    ##### Currently IMDS supports Azure Resource Manager created instances only, in future we  will add support for Cloud Services VMs 
+    #### Currently IMDS supports Azure Resource Manager created instances only(including VM Scale Sets), in future we  will add support for Cloud Services VMs 
 3. I am getting  500 - Internal server error
-    ##### Currently Instance Metadata Preview is available only in West US Central Region, Please deploy your VMS there.  
+    #### Currently Instance Metadata Preview is available only in West US Central Region, Please deploy your VMS there.  
